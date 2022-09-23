@@ -5,6 +5,7 @@ public class Scheduler {
         StringBuffer state;
         int pid;
         int nthreads;
+
     }
 
     class Thread {
@@ -12,6 +13,12 @@ public class Scheduler {
         int thread_number;
         StringBuffer state;
         int pid;
+        public Thread(int instructions[], int thread_number, int state, int pid) {
+            int instructions[];
+            int thread_number;
+            StringBuffer state;
+            int pid;
+        }
     }
 
     class ProcessCapsule {
